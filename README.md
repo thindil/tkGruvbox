@@ -1,9 +1,13 @@
 ## General information
 
 These are Tk themes which use [Gruvbox](https://github.com/morhetz/gruvbox)
-palette. The both uses .png images for buttons and backgrounds for
-various other elements. You can find screenshots of both themes in their
-directories.
+palette. The [gruvbox-dark](gruvbox-dark) and [gruvbox-light](gruvbox-light)
+themes use .png images for buttons and backgrounds for various UI elements.
+The [gruvclam-dark](gruvclam-dark) and [gruvclam-light](gruvclam-light)
+themes are simple themes based on Tk theme `clam`. You can find screenshots
+of all themes in their directories. If you read this file on Github:
+**please don't send pull requests here**. All will be automatically closed. Any
+code propositions should go to the [Fossil](https://www.laeran.pl/repositories/tkgruvbox) repository.
 
 ## Installation
 
@@ -20,6 +24,8 @@ directories.
 4. Edit (or create) your *.Xresources* file and add line:
    * If you want to use Gruvbox light theme: `*TkTheme:gruvbox-light`
    * If you want to use Gruvbox dark theme: `*TkTheme:gruvbox-dark`
+   * If you want to use Gruvclam light theme: `*TkTheme:gruvclam-light`
+   * If you want to use Gruvclam dark theme: `*TkTheme:gruvclam-dark`
 5. Reload your Xorg configuration with command: `xrdb -merge ~/.Xresources`
 6. Profit :)
 
