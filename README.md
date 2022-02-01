@@ -5,9 +5,10 @@ palette. The [gruvbox-dark](gruvbox-dark) and [gruvbox-light](gruvbox-light)
 themes use .png images for buttons and backgrounds for various UI elements.
 The [gruvclam-dark](gruvclam-dark) and [gruvclam-light](gruvclam-light)
 themes are simple themes based on Tk theme `clam`. You can find screenshots
-of all themes in their directories. If you read this file on Github:
-**please don't send pull requests here**. All will be automatically closed. Any
-code propositions should go to the [Fossil](https://www.laeran.pl/repositories/tkgruvbox) repository.
+of all themes in their directories.
+
+**INFO:** This project is no longer maintained. Feel free to clone it and take
+care about it.
 
 ## Installation
 
